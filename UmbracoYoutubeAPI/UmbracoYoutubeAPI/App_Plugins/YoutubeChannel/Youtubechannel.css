@@ -1,0 +1,71 @@
+﻿* {
+    box-sizing:border-box;
+}
+
+.video-main {
+    max-height: 1380px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.video-box {
+    margin-bottom: 30px;
+}
+
+    .video-box img {
+        max-width:100%;
+        height:auto;
+        boject-fit:contain;
+        max-height:188px;
+    }
+
+    .video-box .contain {
+        text-align: left;
+        padding-top: 20px;
+    }
+
+    .video-box input {
+        display: inline-block;
+        width: 450px;
+        height: auto;
+        padding: 10px 15px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .video-box .contain a {
+        display: inline-block;
+        margin-top: 13px;
+        font-size: 16px;
+        line-height: 24px;
+        transition: all 0.3s linear;
+        vertical-align: middle;
+        margin-left: 20px;
+    }
+
+.video-box .contain a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+input[type="button"] {
+    display: inline-block;
+    width: auto;
+    padding: 12px 15px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    background-color: blue;
+    text-transform: capitalize;
+    font-weight: 700;
+    border: 1px solid blue;
+    transition: all 0.3s linear;
+    appearance: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    input[type="button"]:hover {
+        color: blue;
+        background-color: transparent;
+    }
